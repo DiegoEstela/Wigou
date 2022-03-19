@@ -1,0 +1,37 @@
+.Title {
+  color: rgb(0, 110, 125);
+  font-size: 3.5rem;
+  padding-bottom: 10px;
+  margin-top: 2%;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 29ch;
+
+  animation: typing 2.5s steps(29), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.h2Container {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .Title {
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 1.4rem;
+  }
+}

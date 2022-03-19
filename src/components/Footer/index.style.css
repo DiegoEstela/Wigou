@@ -1,0 +1,185 @@
+.footerContainer {
+  background-color: rgb(0, 110, 125);
+  height: 300px;
+  border-top: solid 1px whitesmoke;
+  display: flex;
+}
+.footerContainer__right {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.logoFooter {
+  margin-top: 40px;
+}
+
+.ParraContactos {
+  width: 20%;
+  display: flex;
+  height: 30px;
+  color: white;
+}
+.ParrafoContactos__ul {
+  text-align: justify;
+  font-size: 1em;
+  list-style-type: none;
+  color: white;
+  margin-top: 20px;
+}
+
+.li {
+  margin-top: 20px;
+}
+
+.liWps {
+  margin-top: 20px;
+}
+.liWps:hover {
+  cursor: pointer;
+}
+
+.ParrafoServicios {
+  width: 40%;
+  height: 30px;
+  color: white;
+}
+
+.ParrafoServicios_ul {
+  margin-left: 50%;
+  text-align: justify;
+  font-size: 1em;
+  list-style-type: none;
+  color: white;
+  margin-top: 20px;
+}
+
+.Redes {
+}
+
+.Redes__ul {
+  margin-left: 40%;
+  text-align: justify;
+  font-size: 1em;
+  list-style-type: none;
+  color: white;
+  margin-top: 50px;
+}
+
+.liHeadRedes {
+  text-align: justify;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  margin-top: 40px;
+}
+
+.liHead {
+  text-align: justify;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  margin-top: 40px;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+.ParrafoAnimado {
+  display: flex;
+  margin-top: 20px;
+  width: 300px;
+  height: 30px;
+  color: white;
+  font-size: 30px;
+  line-height: 30px;
+  overflow: hidden;
+  margin-left: 25px;
+  padding-left: 10px;
+}
+
+.ParrafoAnimado_ul {
+  list-style-type: none;
+  margin: 0px;
+  animation: cambiar 6s infinite;
+}
+
+@keyframes cambiar {
+  0% {
+    margin-top: 0;
+  }
+  20% {
+    margin-top: 0;
+  }
+
+  25% {
+    margin-top: -30px;
+  }
+  50% {
+    margin-top: -30px;
+  }
+  55% {
+    margin-top: -60px;
+  }
+  80% {
+    margin-top: -60px;
+  }
+  85% {
+    margin-top: -90px;
+  }
+  95% {
+    margin-top: -90px;
+  }
+  100% {
+    margin-top: -90px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .logoFooter {
+    margin-top: 20px;
+  }
+  .ParrafoAnimado {
+    display: none;
+  }
+  .footerContainer {
+    background-color: rgb(0, 110, 125);
+    height: 300px;
+    border-top: solid 1px whitesmoke;
+    display: flex;
+    flex-direction: column;
+  }
+  .ParraContactos {
+    margin: 0;
+    text-align: left;
+    color: white;
+  }
+  .ParrafoServicios_ul {
+    display: none;
+  }
+  .ParrafoContactos__ul {
+    margin-left: 0;
+    padding: o;
+    margin-left: 1px;
+    text-align: justify;
+    font-size: 1em;
+    list-style-type: none;
+    color: white;
+    margin-top: 20px;
+  }
+  .Redes {
+    position: absolute;
+    left: 150px;
+    margin-top: 20px;
+    width: 300px;
+    height: 30px;
+    color: white;
+  }
+}
+
+.FooterEnd {
+  background-color: rgb(0, 110, 125);
+  color: white;
+  padding-bottom: 10px;
+}
