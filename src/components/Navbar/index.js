@@ -1,9 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
+import "./navBar.style.css";
+
 function NavBar() {
+  const [navbar, setNavbar] = useState(false);
+
+  const shadow = () => {
+    if (window.scrollY >= 80) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+
+  window.addEventListener("scroll", shadow);
+
   return (
     <>
-      <Navbar bg="light" expand="lg">
+      <Navbar
+        className={navbar ? "navActive" : "navInactive"}
+        bg="light"
+        expand="lg"
+        fixed="top"
+      >
         <Container>
           <Navbar.Brand href="#home">
             <img
@@ -18,9 +37,11 @@ function NavBar() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="https://www.instagram.com/wigou.com.ar/">
-                Instagram
+                <span className="LinkNav"> Instagram</span>
               </Nav.Link>
-              <Nav.Link href="#link">Wathsapp</Nav.Link>
+              <Nav.Link href="#link">
+                <span className="LinkNav"> Nosotros</span>
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

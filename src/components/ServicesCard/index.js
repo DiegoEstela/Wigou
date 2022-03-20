@@ -10,7 +10,6 @@ function ServicesCard() {
       "iphone",
       "ipad",
       "android",
-      "safari",
       "blackberry",
       "nokia",
       "opera mini",
@@ -28,7 +27,7 @@ function ServicesCard() {
 
   const urlDesktop = "https://web.whatsapp.com/";
   const urlMobile = "whatsapp://";
-  const telefono = "5491133685266";
+  const telefono = "5491171086323";
 
   function addEventListener(e) {
     e.preventDefault();
@@ -58,7 +57,7 @@ function ServicesCard() {
             className="CroosDocking__Button btn btn-light"
             onClick={(e) => addEventListener(e)}
           >
-            Comunicate con nostros
+            Comunicate con nosotros
           </Button>
         </div>
         <div className="CroosDocking__right">

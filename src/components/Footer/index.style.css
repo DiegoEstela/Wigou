@@ -5,20 +5,21 @@
   display: flex;
 }
 .footerContainer__right {
-  width: 70%;
+  width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .logoFooter {
   margin-top: 40px;
 }
 
-.ParraContactos {
-  width: 20%;
+.ParrafoContactos {
+  width: 40%;
   display: flex;
   height: 30px;
   color: white;
+  justify-content: center;
 }
 .ParrafoContactos__ul {
   text-align: justify;
@@ -31,18 +32,14 @@
 .li {
   margin-top: 20px;
 }
-
+.lire {
+  margin-top: 10px;
+}
 .liWps {
-  margin-top: 20px;
+  margin-top: 8px;
 }
 .liWps:hover {
   cursor: pointer;
-}
-
-.ParrafoServicios {
-  width: 40%;
-  height: 30px;
-  color: white;
 }
 
 .ParrafoTelefonoMov {
@@ -50,7 +47,6 @@
 }
 
 .ParrafoServicios_ul {
-  margin-left: 50%;
   text-align: justify;
   font-size: 1em;
   list-style-type: none;
@@ -58,8 +54,14 @@
   margin-top: 20px;
 }
 
+.Redes {
+  width: 40%;
+  display: flex;
+  height: 30px;
+  color: white;
+  justify-content: center;
+}
 .Redes__ul {
-  margin-left: 40%;
   text-align: justify;
   font-size: 1em;
   list-style-type: none;
@@ -112,6 +114,7 @@
   display: none;
   margin-top: 5px;
 }
+
 @keyframes cambiar {
   0% {
     margin-top: 0;
@@ -152,11 +155,12 @@
   }
   .footerContainer {
     background-color: rgb(0, 110, 125);
-    height: 300px;
+    height: 350px;
     border-top: solid 1px whitesmoke;
     display: flex;
     flex-direction: column;
   }
+
   .ParraContactos {
     margin: 0;
     text-align: left;
@@ -179,7 +183,7 @@
   .Redes {
     position: relative;
     right: -20px;
-    top: -70px;
+    top: -28px;
     width: 20px;
     color: white;
   }
@@ -200,6 +204,11 @@
   .limov {
     display: block;
     margin-top: 5px;
+  }
+  img {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0;
   }
 }
 

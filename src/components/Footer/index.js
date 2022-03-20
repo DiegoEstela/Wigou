@@ -25,7 +25,7 @@ function Footer() {
 
   const urlDesktop = "https://web.whatsapp.com/";
   const urlMobile = "whatsapp://";
-  const telefono = "5491133685266";
+  const telefono = "5491171086323";
 
   function addEventListener(e) {
     e.preventDefault();
@@ -77,7 +77,7 @@ function Footer() {
               <li className="limov">11-3368-5266</li>
             </ul>
           </div>
-          <div className="ParrafoServicios">
+          <div className="ParrafoContactos">
             <ul className="ParrafoServicios_ul">
               <li className="liHead">SERVICIOS</li>
               <li className="li">Croos Docking</li>
@@ -85,7 +85,7 @@ function Footer() {
               <li className="li">Finishing</li>
             </ul>
           </div>
-          <div className="ParrafoServicios">
+          <div className="ParrafoContactos">
             <ul className="ParrafoServicios_ul">
               <li className="liHead">TELEFONOS</li>
               <li className="li">11-3368-5266</li>
@@ -95,7 +95,7 @@ function Footer() {
 
           <div className="Redes">
             <ul className="Redes__ul">
-              <li className="li">
+              <li className="lire">
                 <a
                   className="link"
                   href="https://www.instagram.com/wigou.com.ar/"
@@ -118,7 +118,7 @@ function Footer() {
                   />
                 </a>
               </li>
-              <li className="li">
+              <li className="lire">
                 <a className="link" href="https://www.facebook.com">
                   <img
                     width="40px"
@@ -128,7 +128,7 @@ function Footer() {
                   />
                 </a>
               </li>
-              <li className="li">
+              <li className="lire">
                 <a className="link" href="https://www.linkedin.com">
                   <img
                     width="40px"
