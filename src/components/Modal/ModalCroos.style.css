@@ -1,0 +1,17 @@
+.ModalTitle {
+  justify-content: center;
+  color: rgb(0, 110, 125);
+}
+
+.ModalBody {
+  text-align: center;
+}
+
+.ModalBtnSaber {
+  background-color: rgb(0, 110, 125);
+  color: white;
+}
+.ModalBtnSalir {
+  background-color: #1cc800;
+  color: white;
+}

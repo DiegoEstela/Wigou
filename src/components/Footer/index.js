@@ -63,25 +63,35 @@ function Footer() {
             <ul className="ParrafoContactos__ul">
               <li className="liHead">CONTACTOS</li>
               <li className="li">
-                <a className="link" href="https://mail.google.com/">
+                <a
+                  className="link"
+                  href="https://mail.google.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   santi@wigou.com.ar
                 </a>
               </li>
               <li className="li">
-                <a className="link" href="https://mail.google.com/">
+                <a
+                  className="link"
+                  href="https://mail.google.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   nacho@wigou.com.ar
                 </a>
               </li>
               <li className="liHeadmov">TELEFONOS</li>
               <li className="limov">11-3368-5266</li>
-              <li className="limov">11-3368-5266</li>
+              <li className="limov">11 2253-0838</li>
             </ul>
           </div>
           <div className="ParrafoContactos">
             <ul className="ParrafoServicios_ul">
               <li className="liHead">SERVICIOS</li>
-              <li className="li">Croos Docking</li>
-              <li className="li">Packagin</li>
+              <li className="li">Cross Docking</li>
+              <li className="li">Packaging</li>
               <li className="li">Finishing</li>
             </ul>
           </div>
@@ -99,12 +109,16 @@ function Footer() {
                 <a
                   className="link"
                   href="https://www.instagram.com/wigou.com.ar/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <img
                     width="40px"
                     variant="top"
                     src="./instagram.png"
                     alt="instagram"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   />
                 </a>
               </li>
@@ -115,11 +129,18 @@ function Footer() {
                     variant="top"
                     src="./whatsapp.png"
                     alt="whatsapp"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   />
                 </a>
               </li>
               <li className="lire">
-                <a className="link" href="https://www.facebook.com">
+                <a
+                  className="link"
+                  href="https://www.facebook.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     width="40px"
                     variant="top"
@@ -129,7 +150,12 @@ function Footer() {
                 </a>
               </li>
               <li className="lire">
-                <a className="link" href="https://www.linkedin.com">
+                <a
+                  className="link"
+                  href="https://www.linkedin.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     width="40px"
                     variant="top"

@@ -15,6 +15,45 @@ function NavBar() {
 
   window.addEventListener("scroll", shadow);
 
+  function isMobile() {
+    if (sessionStorage.desktop) return false;
+    else if (localStorage.mobile) return true;
+    var mobile = [
+      "iphone",
+      "ipad",
+      "android",
+      "blackberry",
+      "nokia",
+      "opera mini",
+      "windows mobile",
+      "windows phone",
+      "iemobile",
+    ];
+    for (var i in mobile)
+      if (
+        navigator.userAgent.toLowerCase().indexOf(mobile[i].toLowerCase()) > 0
+      )
+        return true;
+    return false;
+  }
+
+  const urlDesktop = "https://web.whatsapp.com/";
+  const urlMobile = "whatsapp://";
+  const telefono = "5491171086323";
+
+  function addEventListener(e) {
+    e.preventDefault();
+
+    setTimeout(() => {
+      let mensaje = "send?phone=" + telefono;
+      if (isMobile()) {
+        window.open(urlMobile + mensaje, "_blank");
+      } else {
+        window.open(urlDesktop + mensaje, "_blank");
+      }
+    }, 1000);
+  }
+
   return (
     <>
       <Navbar
@@ -23,24 +62,30 @@ function NavBar() {
         expand="lg"
         fixed="top"
       >
-        <Container>
-          <Navbar.Brand href="#home">
+        <Container className="p-0">
+          <Navbar.Brand>
             <img
               src="/logoColor.svg"
               width="100%"
               height="50"
-              className="d-inline-block align-top"
+              className="d-inline-block align-top ps-2"
               alt="Wigou"
             />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="https://www.instagram.com/wigou.com.ar/">
-                <span className="LinkNav"> Instagram</span>
+              <Nav.Link
+                href="https://www.instagram.com/wigou.com.ar/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="LinkNav"> Nosotros</span>
               </Nav.Link>
               <Nav.Link href="#link">
-                <span className="LinkNav"> Nosotros</span>
+                <a onClick={(e) => addEventListener(e)}>
+                  <span className="LinkNav"> Hablanos</span>
+                </a>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
