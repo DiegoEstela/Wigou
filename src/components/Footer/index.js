@@ -72,6 +72,9 @@ function Footer() {
                   nacho@wigou.com.ar
                 </a>
               </li>
+              <li className="liHeadmov">TELEFONOS</li>
+              <li className="limov">11-3368-5266</li>
+              <li className="limov">11-3368-5266</li>
             </ul>
           </div>
           <div className="ParrafoServicios">
@@ -85,11 +88,11 @@ function Footer() {
           <div className="ParrafoServicios">
             <ul className="ParrafoServicios_ul">
               <li className="liHead">TELEFONOS</li>
-              <li className="li">Croos Docking</li>
-              <li className="li">Packagin</li>
-              <li className="li">Finishing</li>
+              <li className="li">11-3368-5266</li>
+              <li className="li">11-3368-5266</li>
             </ul>
           </div>
+
           <div className="Redes">
             <ul className="Redes__ul">
               <li className="li">

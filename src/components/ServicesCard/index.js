@@ -10,6 +10,7 @@ function ServicesCard() {
       "iphone",
       "ipad",
       "android",
+      "safari",
       "blackberry",
       "nokia",
       "opera mini",

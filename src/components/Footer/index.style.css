@@ -45,6 +45,10 @@
   color: white;
 }
 
+.ParrafoTelefonoMov {
+  display: none;
+}
+
 .ParrafoServicios_ul {
   margin-left: 50%;
   text-align: justify;
@@ -52,9 +56,6 @@
   list-style-type: none;
   color: white;
   margin-top: 20px;
-}
-
-.Redes {
 }
 
 .Redes__ul {
@@ -104,7 +105,13 @@
   margin: 0px;
   animation: cambiar 6s infinite;
 }
-
+.liHeadmov {
+  display: none;
+}
+.limov {
+  display: none;
+  margin-top: 5px;
+}
 @keyframes cambiar {
   0% {
     margin-top: 0;
@@ -155,6 +162,7 @@
     text-align: left;
     color: white;
   }
+
   .ParrafoServicios_ul {
     display: none;
   }
@@ -169,12 +177,29 @@
     margin-top: 20px;
   }
   .Redes {
-    position: absolute;
-    left: 150px;
-    margin-top: 20px;
-    width: 300px;
-    height: 30px;
+    position: relative;
+    right: -20px;
+    top: -70px;
+    width: 20px;
     color: white;
+  }
+  .FooterEnd {
+    font-size: 12px;
+  }
+  .liHead {
+    margin-top: 20px;
+  }
+  .li {
+    margin-top: 10px;
+  }
+  .liHeadmov {
+    margin-top: 10px;
+    font-weight: bold;
+    display: block;
+  }
+  .limov {
+    display: block;
+    margin-top: 5px;
   }
 }
 
