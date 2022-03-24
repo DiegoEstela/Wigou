@@ -12,7 +12,7 @@ function ModalFinishing({ estado, cambiarEstado }) {
         }}
       >
         <Modal.Header closeButton>
-          <Modal.Title className="ModalTitle">FINISHIG</Modal.Title>
+          <Modal.Title className="ModalTitle">FINISHING</Modal.Title>
         </Modal.Header>
         <Modal.Body className="ModalBody">
           PERSONALIZAMOS EL UNBOXING EL PRODUCTO PARA MEJORAR LA ENTREGA
