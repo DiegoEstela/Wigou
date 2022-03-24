@@ -6,7 +6,7 @@ function ServicesCard() {
   function isMobile() {
     if (sessionStorage.desktop) return false;
     else if (localStorage.mobile) return true;
-    var mobile = [
+    let mobile = [
       "iphone",
       "ipad",
       "android",
