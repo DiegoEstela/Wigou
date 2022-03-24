@@ -6,7 +6,19 @@ function ServicesCard() {
   function isMobile() {
     if (sessionStorage.desktop) return false;
     else if (localStorage.mobile) return true;
-    const mobile = navigator.userAgentData.mobile;
+    var mobile = [
+      "iPhone",
+      "webOS",
+      "Safari",
+      "iPad",
+      "android",
+      "blackberry",
+      "nokia",
+      "opera Mini",
+      "windows mobile",
+      "windows phone",
+      "IEMobile",
+    ];
 
     for (var i in mobile)
       if (
