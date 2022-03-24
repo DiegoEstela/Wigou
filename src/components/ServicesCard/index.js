@@ -6,17 +6,8 @@ function ServicesCard() {
   function isMobile() {
     if (sessionStorage.desktop) return false;
     else if (localStorage.mobile) return true;
-    let mobile = [
-      "iphone",
-      "ipad",
-      "android",
-      "blackberry",
-      "nokia",
-      "opera mini",
-      "windows mobile",
-      "windows phone",
-      "iemobile",
-    ];
+    const mobile = navigator.userAgentData.mobile;
+
     for (var i in mobile)
       if (
         navigator.userAgent.toLowerCase().indexOf(mobile[i].toLowerCase()) > 0
@@ -61,7 +52,11 @@ function ServicesCard() {
           </Button>
         </div>
         <div className="CroosDocking__right">
-          <img className="CroosDocking__img" src="./foto2.png" alt="" />
+          <img
+            className="CroosDocking__img"
+            src="./foto2.png"
+            alt="WigouFoto"
+          />
         </div>
       </div>
       <div></div>
