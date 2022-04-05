@@ -7,20 +7,15 @@ function ServicesCard() {
     if (sessionStorage.desktop) return false;
     else if (localStorage.mobile) return true;
     var mobile = [
-      "iPhone",
-      "webOS",
-      "Safari",
-      "iPad",
+      "iphone",
+      "ipad",
       "android",
       "blackberry",
       "nokia",
-      "opera Mini",
+      "opera mini",
       "windows mobile",
       "windows phone",
-      "IEMobile",
-      "Opera Mini/i",
-      "(hpw|web)OS",
-      "iP(hone|od)",
+      "iemobile",
     ];
 
     for (var i in mobile)
