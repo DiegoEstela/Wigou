@@ -33,7 +33,7 @@ function ServicesCard() {
 
   const urlDesktop = "https://web.whatsapp.com/";
   const urlMobile = "whatsapp://";
-  const telefono = "5491171086323";
+  const telefono = "5491133685266";
 
   function addEventListener(e) {
     e.preventDefault();

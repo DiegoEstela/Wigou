@@ -25,7 +25,7 @@ function Footer() {
 
   const urlDesktop = "https://web.whatsapp.com/";
   const urlMobile = "whatsapp://";
-  const telefono = "5491171086323";
+  const telefono = "5491133685266";
 
   function addEventListener(e) {
     e.preventDefault();
@@ -99,7 +99,7 @@ function Footer() {
             <ul className="ParrafoServicios_ul">
               <li className="liHead">TELEFONOS</li>
               <li className="li">11-3368-5266</li>
-              <li className="li">11-3368-5266</li>
+              <li className="li">11 2253-0838</li>
             </ul>
           </div>
 
@@ -169,7 +169,7 @@ function Footer() {
         </div>
       </div>
       <p className="FooterEnd">
-        WIGOU © 2022- Hosting by DiegoEstela | Website by DiegoEstela
+        WIGOU © 2022- Hosting by Diego Estela | Website by Diego Estela
       </p>
     </>
   );
